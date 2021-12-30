@@ -40,7 +40,7 @@ export const getGithubUserContribution = async (
 };
 
 const defaultColorScheme = [
-  "#ebedf0",
+  "rgba(235, 237, 240, 0.1)",
   "#9be9a8",
   "#40c463",
   "#30a14e",
