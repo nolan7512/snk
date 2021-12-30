@@ -4,7 +4,7 @@ author: "platane"
 
 runs:
   using: "docker"
-  image: "docker://edusutil/snk:latest"
+  image: "docker://edusutil/snk:blue"
 
 inputs:
   github_user_name:

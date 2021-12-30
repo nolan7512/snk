@@ -30,7 +30,7 @@ const drawOptions = {
   sizeDot: 12,
   colorBorder: "#1b1f230a",
   colorDots: { 1: "#9be9a8", 2: "#40c463", 3: "#30a14e", 4: "#216e39" },
-  colorEmpty: "rgba(235, 237, 240, 0.1)",
+  colorEmpty: "#333333",
   colorSnake: "blue",
 };
 
