@@ -16,7 +16,7 @@ export const drawOptions = {
   colorEmpty: "rgba(235, 237, 240, 0.1)",
   colorSnake: "purple",
   dark: {
-    colorEmpty: "#161b22",
+    colorEmpty: "rgba(235, 237, 240, 0.1)",
     colorDots: { 1: "#01311f", 2: "#034525", 3: "#0f6d31", 4: "#00c647" },
   },
 };
