@@ -13,10 +13,10 @@ export const drawOptions = {
     3: "#30a14e",
     4: "#216e39",
   },
-  colorEmpty: "#333333",
+  colorEmpty: "rgba(200,200,200,0.1)",
   colorSnake: "blue",
   dark: {
-    colorEmpty: "#333333",
+    colorEmpty: "rgba(200,200,200,0.1)",
     colorDots: { 1: "#01311f", 2: "#034525", 3: "#0f6d31", 4: "#00c647" },
   },
 };

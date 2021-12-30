@@ -22,11 +22,11 @@ export const generateContributionSnake = async (
     sizeDot: 12,
     colorBorder: "#1b1f230a",
     colorDots: colorScheme as any,
-    colorEmpty: "#333333",
+    colorEmpty: "rgba(200,200,200,0.1)",
     colorSnake: "blue",
     cells,
     dark: {
-      colorEmpty: "#333333",
+      colorEmpty: "rgba(200,200,200,0.1)",
       colorDots: { 1: "#01311f", 2: "#034525", 3: "#0f6d31", 4: "#00c647" },
     },
   };
