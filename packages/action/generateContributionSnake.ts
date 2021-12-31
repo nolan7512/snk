@@ -8,6 +8,7 @@ import { getPathToPose } from "@snk/solver/getPathToPose";
 
 export const generateContributionSnake = async (
   userName: string,
+  snakeColor: string,
   format: { svg?: boolean; gif?: boolean }
 ) => {
   console.log("🎣 fetching github user contribution");
@@ -23,7 +24,7 @@ export const generateContributionSnake = async (
     colorBorder: "#1b1f230a",
     colorDots: colorScheme as any,
     colorEmpty: "rgba(200,200,200,0.1)",
-    colorSnake: "#00e6de",
+    colorSnake: snakeColor || "#00e6de",
     cells,
     dark: {
       colorEmpty: "rgba(200,200,200,0.1)",

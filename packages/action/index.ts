@@ -10,9 +10,11 @@ import { generateContributionSnake } from "./generateContributionSnake";
       svg: core.getInput("svg_out_path"),
       gif: core.getInput("gif_out_path"),
     };
+    const snakeColor = core.getInput("snake_color")
 
     const { svg, gif } = await generateContributionSnake(
       userName,
+      snakeColor,
       format as any
     );
 

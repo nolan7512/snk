@@ -4,14 +4,14 @@ Este projeto é uma versão do projeto [Platane/snk](https://github.com/Platane/
 
 ### O que esse projeto faz?
 
-Você pode gerar um svg ou gif que é uma cobrinha comendo suas contribuições no Github.
+Você pode gerar um svg ou gif que é uma cobrinha comendo suas contribuições no Github e colocar no seu perfil!
 
 ![Snake animation](https://raw.githubusercontent.com/Sutil/Sutil/2b2fad3bf54522bb30c8c170591fc68ff51b69e6/github-contribution-grid-snake2.svg)
 
 ### O que tem de diferente do projeto original?
 
 - O README está escrito em português! o/
-- I background da imagem é semi-transparente.
+- O background da imagem gerada é semi-transparente.
 - Você pode escolher a cor da cobrinha!
 
 ## Como eu posso usar?
@@ -36,6 +36,7 @@ Você pode gerar um svg ou gif que é uma cobrinha comendo suas contribuições 
      Para isso crie um arquivo `.github/workflows/snake.yml`.
      
      coloque o conteúdo abaixo dentro do arquivo.
+     Se desejar, troque a cor `snake_color`.
 
 
 ```yml
@@ -58,6 +59,7 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           svg_out_path: dist/github-contribution-grid-snake2.svg
+          snake_color: 'blue'
 
       - uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
