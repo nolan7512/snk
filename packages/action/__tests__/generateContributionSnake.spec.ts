@@ -21,7 +21,7 @@ it(
     const outputGif = path.join(__dirname, "__snapshots__/out.gif");
 
     console.log = () => undefined;
-    const buffer = await generateContributionSnake("platane", {
+    const buffer = await generateContributionSnake("platane", "#ffd900", {
       svg: true,
       gif: true,
     });

@@ -17,6 +17,8 @@ export const generateContributionSnake = async (
   const grid = userContributionToGrid(cells, colorScheme);
   const snake = snake4;
 
+  console.log('>>> The snake will be', snakeColor);
+
   const drawOptions = {
     sizeBorderRadius: 2,
     sizeCell: 16,

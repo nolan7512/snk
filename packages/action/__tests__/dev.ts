@@ -6,7 +6,7 @@ import { generateContributionSnake } from "../generateContributionSnake";
   const outputSvg = path.join(__dirname, "__snapshots__/out.svg");
   const outputGif = path.join(__dirname, "__snapshots__/out.gif");
 
-  const buffer = await generateContributionSnake("platane", {
+  const buffer = await generateContributionSnake("platane", "#ffd900", {
     svg: true,
     gif: true,
   });
