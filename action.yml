@@ -18,6 +18,10 @@ inputs:
     description: "path of the generated svg file. If left empty, the svg file will not be generated."
     required: false
     default: null
+  snake_color:
+    description: "Hash color to draw the snake"
+    required: false
+    default: null
 
 outputs:
   gif_out_path:
