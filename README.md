@@ -1,6 +1,6 @@
 # snk
 
-Este projeto é uma versão do projeto ![Platane/snk](https://github.com/Platane/snk)!
+Este projeto é uma versão do projeto [Platane/snk](https://github.com/Platane/snk)!
 
 ### O que esse projeto faz?
 
@@ -22,7 +22,7 @@ Você pode gerar um svg ou gif que é uma cobrinha comendo suas contribuições 
 
 * Dentro deste projeto crie um arquivo README.md
   O Conteúdo deste arquivo será mostrado no seu Perfil do github.
-  Veja o exemplo do ![meu perfil](https://github.com/Sutil).
+  Veja o exemplo do [meu perfil](https://github.com/Sutil).
 
 * Coloque a cobrinha neste arquivo de README.
   
