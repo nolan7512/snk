@@ -1,5 +1,5 @@
 name: "Snake game generator from Github contributions"
-description: "Generates a snake game from a github user contributions grid. Output the animation as gif or svg and you can set the snake color!"
+description: "Snake game generator from a github contributions. Output the animation as gif or svg and you can set the snake color!"
 author: "Sutil"
 
 runs:
