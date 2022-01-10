@@ -1,6 +1,6 @@
 # snk
 
-## Inglês
+## English
 
 This project is an version of [Platane/snk](https://github.com/Platane/snk) project!
 
